@@ -18,7 +18,7 @@ const todayImagesCount = document.getElementById('todayImages');
 // For production, set this to your deployed backend URL
 const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
     ? '/api' 
-    : 'https://your-render-app-name.onrender.com/api';
+    : 'https://ai-image-backend-szhs.onrender.com/api';
 
 // Local Storage Keys
 const RECENT_IMAGES_KEY = 'ai_generator_recent_images';
