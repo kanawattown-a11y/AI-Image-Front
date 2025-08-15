@@ -57,7 +57,7 @@ async function generateImage() {
     hideImageResult();
     
     try {
-        const response = await fetch(`${API_BASE_URL}/api/generate-image`, {
+        const response = await fetch(`${API_BASE_URL}/generate-image`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
