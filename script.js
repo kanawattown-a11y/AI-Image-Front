@@ -17,7 +17,7 @@ const todayImagesCount = document.getElementById('todayImages');
 // For local development, use '/api'
 // For production, set this to your deployed backend URL
 const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
-    ? '/api' 
+    ? 'http://127.0.0.1:5000/api' 
     : 'https://ai-image-backend-szhs.onrender.com/api';
 
 // Local Storage Keys
